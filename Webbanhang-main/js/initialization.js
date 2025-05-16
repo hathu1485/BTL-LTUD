@@ -4,230 +4,232 @@ function createProduct() {
         let products = [{
             id: 1,
             status: 1, 
-            title: 'Nấm đùi gà xào cháy tỏi',
+            title: 'Dây chuyền kim cương',
             img: './assets/img/products/nam-dui-ga-chay-toi.jpeg',
-            category: 'Món mặn',
-            price: 200000,
-            desc: 'Một Món chay ngon miệng với nấm đùi gà thái chân hương, xào săn với lửa và thật nhiều tỏi băm, nêm nếm với mắm và nước tương chay, món ngon đưa cơm và rất dễ ăn cả cho người lớn và trẻ nhỏ.'
+            category: 'Dây chuyền',
+            price: 9000000,
+            desc: 'Hơn cả một món trang sức, đây là một biểu tượng trường tồn, một tuyệt tác vượt thời gian mà bạn sẽ trân trọng suốt đời. Chiếc vòng cổ vàng nguyên khối 14k ôm trọn viên kim cương огранки tròn ethically sourced, tỏa sáng rạng ngời trong ореол bezel tinh tế.'
         },
         {
             id: 2,
             status: 1, 
-            title: 'Rau xào ngũ sắc',
+            title: 'Dây chuyền vệ tinh',
             img: './assets/img/products/rau-xao-ngu-sac.png',
-            category: 'Món mặn',
-            price: 180000,
-            desc: 'Rau củ quả theo mùa tươi mới xào với nước mắm chay, gia vị để giữ được hương vị ngọt tươi nguyên thủy của rau củ, một món nhiều vitamin và chất khoáng, rất dễ ăn.'
+            category: 'Dây chuyền',
+            price: 3300000,
+            desc: 'Chiếc vòng cổ dễ thương nhất mà bạn từng sở hữu. Được làm thủ công bằng vermeil, một lớp vàng 18k dày trên bạc sterling với đá sapphire trắng. Một món đồ sẽ phù hợp với áo phông hoặc váy dự tiệc yêu thích của bạn.'
         },
         {
             id: 3,
             status: 1, 
-            title: 'Bánh lava phô mai nướng',
+            title: 'Dây chuyền Sapphire nổi',
             img: './assets/img/products/banh_lava_pho_mai_nuong.jpeg',
-            category: 'Món mặn',
-            price: 180000,
-            desc: 'Rau củ quả theo mùa tươi mới xào với nước mắm chay, gia vị để giữ được hương vị ngọt tươi nguyên thủy của rau củ, một món nhiều vitamin và chất khoáng, rất dễ ăn.'
+            category: 'Dây chuyền',
+            price: 3300000,
+            desc: 'Viên sapphire lấp lánh, tựa như một vì sao đêm được chạm khắc tinh xảo, sẽ biến món trang sức này thành tâm điểm của mọi ánh nhìn, thu hút mọi sự chú ý vào vẻ đẹp quyến rũ của bạn.'
         },
         {
             id: 4,
-            status: 1, title: 'Set lẩu thái Tomyum',
+            status: 1, title: 'Dây chuyền Topaz tròn',
             img: './assets/img/products/lau_thai.jpg',
-            category: 'Món mặn',
-            price: 699000,
-            desc: 'Lẩu Thái là món ăn xuất phát từ món canh chua Tom yum nổi tiếng của Thái Lan. Nước lẩu có hương vị chua chua cay cay đặc trưng. Các món nhúng lẩu gồn thịt bò, hải sản, rau xanh và các loại nấm.'
+            category: 'Dây chuyền',
+            price: 2500000,
+            desc: 'Hãy dành tặng người ấy một món trang sức mới mẻ tinh tế, sang trọng và rõ ràng phù hợp với mọi thứ họ đang sở hữu. Mỗi thiết kế được chế tác thủ công bằng vàng vermeil 18k, nổi bật với viên đá topaz cắt tròn lấp lánh một điểm nhấn nhẹ nhàng nhưng đầy cuốn hút cho mọi phong cách.
+
+'
         },
         {
             id: 5,
             status: 1, 
-            title: 'Cơm chiên cua',
+            title: 'Dây chuyền Baguette nhiều lớp',
             img: './assets/img/products/com_chien_cua.png',
-            category: 'Món mặn',
-            price: 280000,
-            desc: 'Cơm nấu từ gạo ST25 dẻo, hạt cơm tơi ngon, thịt cua tươi chắc nịch, bếp đảo cho săn hạt cơm, rồi đổ cua đã xào thơm vào, xúc miếng cơm chiên cua đầy đặn có thêm hành phi giòn rụm, món ngon như vậy đảm bảo tranh nhau đến miếng cuối cùng.'
+            category: 'Dây chuyền',
+            price: 3800000,
+            desc: 'Bạn sẽ nhận được gì khi kết hợp đá quý yêu thích với kiểu cắt yêu thích của mình? Tất nhiên là chiếc vòng cổ nhiều lớp trong mơ của bạn rồi. Thiết kế này mang đậm dấu ấn cá nhân, nổi bật và tinh tế, phù hợp cho cả những khoảnh khắc đời thường lẫn những dịp đặc biệt.'
         },
 
         {
             id: 6,
             status: 1, 
-            title: 'Súp bào ngư hải sâm (1 phần)',
+            title: 'Vòng cổ ngọc trai Sloan',
             img: './assets/img/products/sup-bao-ngu-hai-sam.jpeg',
-            category: 'Món mặn',
-            price: 540000,
-            desc: 'Súp bào ngư Bếp Hoa có bào ngư kết hợp cùng sò điệp, tôm tươi... được hầm trong nhiều giờ với rau củ & nấm đông trùng tạo ra vị ngọt tự nhiên hiếm thấy. Một món ăn khiến cả người ốm cũng thấy ngon miệng đó ạ.'
+            category: 'Dây chuyền',
+            price: 12500000,
+            desc: 'Một tác phẩm nghệ thuật với ngọc trai và mắt xích bạc cong. Vòng cổ ngọc trai Sloan sẽ đồng hành cùng bạn khi ra phố. Những viên ngọc trai nút có nhiều kích cỡ khác nhau nằm phẳng trên ngực bạn và phản chiếu ánh sáng để bạn thu hút mọi ánh nhìn. Được tạo ra để khiến bạn cảm thấy đặc biệt.'
         },
 
         {
             id: 7,
             status: 1, 
-            title: 'Tai cuộn lưỡi',
-            category: 'Món mặn',
+            title: 'Nhẫn kim cương',
+            category: 'Nhẫn',
             img: './assets/img/products/tai-cuon-luoi.jpeg',
-            price: 340000,
-            desc: 'Tai heo được cuộn bên trong cùng phần thịt lưỡi heo. Phần tai bên ngoài giòn dai, phần thịt lưỡi bên trong vẫn mềm, có độ ngọt tự nhiên của thịt. Tai cuộn lưỡi được chấm với nước mắm và tiêu đen.'
+            price: 10000000,
+            desc: 'Thiết kế tinh tế nhất mà bạn từng thấy. Chiếc nhẫn này kết hợp hoàn hảo với bất kỳ mẫu nhẫn Stacker nào của chúng tôi và dễ dàng nâng cấp mọi trang phục, từ giản dị đến trang trọng. Một điểm nhấn nhỏ nhưng đủ sức tạo nên sự khác biệt.'
         },
 
         {
             id: 8,
             status: 1, 
-            title: 'Xíu mại tôm thịt 10 viên',
+            title: 'Nhẫn hình vòm',
             img: './assets/img/products/xiu_mai_tom_thit_10_vien.jpg',
-            category: 'Món mặn',
-            price: 140000,
-            desc: 'Quý khách hấp chín trước khi ăn. Những miếng há cảo, sủi cảo, hoành thánh với phần nhân tôm, sò điệp, hải sản tươi ngon hay nhân thịt heo thơm ngậy chắc chắn sẽ khiến bất kỳ ai thưởng thức đều cảm thấy rất ngon miệng.'
+            category: 'Nhẫn',
+            price: 2500000,
+            desc: 'Một tác phẩm mở và hấp dẫn lấy cảm hứng từ chuyển động chậm rãi, có chủ đích. Mỗi đường cong phản ánh góc độ độc đáo của riêng nó và của bạn.'
         },
 
         {
             id: 9,
             status: 1, 
-            title: 'Trà phô mai kem sữa',
-            category: "Nước uống",
+            title: 'Nhẫn kim cương nhân tạo',
+            category: "Nhẫn",
             img: './assets/img/products/tra-pho-mai-kem-sua.jpg',
-            price: 34000,
-            desc: 'Món Nước uống vừa béo ngậy, chua ngọt đủ cả mà vẫn có vị thanh của trà.',
+            price: 3800000,
+            desc: 'Hai thì tốt hơn một. Với vành bezel, những viên kim cương Kimberly Process 0,03 carat này sẽ nhảy múa. Thiết kế mở khiến chiếc nhẫn này nổi bật ngay cả khi xếp chồng lên nhau, như Stacker, Twist hoặc Beaded Rings.',
         },
         {
             id: 10,
             status: 1, 
-            title: 'Trà đào chanh sả',
-            category: "Nước uống",
+            title: 'Bộ nhẫn xếp chồng Wishbone',
+            category: "Nhẫn",
             img: './assets/img/products/tra-dao-chanh-sa.jpg',
-            price: 25000,
-            desc: 'Trà đào chanh sả có vị đậm ngọt thanh của đào, vị chua chua dịu nhẹ của chanh và hương thơm của sả.',
+            price: 10200000,
+            desc: 'Bộ nhẫn xếp chồng Wishbone mang đến vẻ thanh lịch tối giản nhưng đầy cuốn hút. Dù đeo riêng lẻ hay kết hợp cùng nhau, chúng đều tỏa sáng theo cách riêng biệt và nâng tầm mọi phong cách.',
         },
         {
             id: 11,
             status: 1, 
-            title: 'Bánh chuối nướng',
-            category: 'Món tráng miệng',
+            title: 'Nhẫn hạt',
+            category: 'Nhẫn',
             img: './assets/img/products/banh-chuoi-nuong.jpeg',
-            price: 60000,
-            desc: 'Bánh chuối nướng béo ngậy mùi nước cốt dừa cùng miếng chuối mềm ngon sẽ là Món tráng miệng phù hợp với mọi người.'
+            price: 3300000,
+            desc: 'Chiếc nhẫn đính hạt này tạo nên một tuyên bố đủ nổi bật để đeo một mình, nhưng cũng linh hoạt để kết hợp cùng những món khác. Được chế tác thủ công từ vàng trắng 14k mạ rhodium, với độ dày 1,3 mm, chiếc nhẫn đủ bền để đồng hành cùng bạn trong mọi hành trình.'
         },
         {
             id: 12,
             status: 1, 
-            title: 'Há cảo sò điệp (10 viên)',
+            title: 'Nhẫn ống hỗn hợp',
             img: './assets/img/products/ha_cao.jpg',
-            category: 'Món mặn',
-            price: 140000,
-            desc: 'Những miếng há cảo, sủi cảo, hoành thánh với phần nhân tôm, sò điệp, hải sản tươi ngon hay nhân thịt heo thơm ngậy chắc chắn sẽ khiến bất kỳ ai thưởng thức đều cảm thấy rất ngon miệng.'
+            category: 'Nhẫn',
+            price: 2500000,
+            desc: 'Một bài học tinh tế về sự tương phản với thiết kế ống kim loại hỗn hợp với hai chiều rộng và hai tông màu mang đến vẻ ngoài độc đáo, đầy cá tính. Được chế tác thủ công từ vàng vermeil 18k và bạc nguyên chất, mẫu trang sức này cho phép bạn thoải mái thể hiện phong cách riêng bằng cách xếp chồng các chất liệu yêu thích ở vị trí trung tâm.'
         },
         {
             id: 13,
             status: 1, 
-            title: 'Chả rươi (100gr)',
+            title: 'Khuyên tai vòng Deia',
             img: './assets/img/products/thit_nuong.jpg',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Chả rươi luôn mang đến hương vị khác biệt và "gây thương nhớ" hơn hẳn so với các loại chả khác. Rươi béo càng ăn càng thấy ngậy. Thịt thơm quyện mùi thì là và vỏ quýt rất đặc sắc. Chắc chắn sẽ là một món ăn rất hao cơm'
+            category: 'Khuyên tai',
+            price: 4000000,
+            desc: 'Lấp lánh vừa đủ, tinh tế đúng lúc – hoa tai vòng Deia là điểm nhấn hoàn hảo cho mọi phong cách. Với thiết kế mảnh nhẹ, đường cong mềm mại và độ sáng nổi bật, Deia mang đến cảm giác thanh lịch nhưng không hề đơn điệu.'
         },
         {
             id: 14,
             status: 1, 
-            title: 'Nộm gà Hội An (1 phần)',
+            title: 'Khuyên tai xoắn ốc xoay độc đáo ',
             img: './assets/img/products/nom_ga_hoi_an.png',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Nộm gà làm từ thịt gà ri thả đồi. Thịt gà ngọt, săn được nêm nếm vừa miệng, bóp thấu với các loại rau tạo thành món nộm thơm ngon, đậm đà, giải ngán hiệu quả.'
+            category: 'Khuyên tai',
+            price: 2500000,
+            desc: 'Khác biệt từ cái nhìn đầu tiên – đôi hoa tai xoắn ốc với cơ chế xoay độc đáo mang đến một trải nghiệm đeo mới lạ và cuốn hút. Thiết kế xoắn mềm mại ôm sát tai, tạo cảm giác hiện đại, tinh tế nhưng vẫn đầy cá tính.'
         },
         {
             id: 15,
             status: 1, 
-            title: 'Set bún cá (1 set 5 bát)',
+            title: 'Khuyên tai giọt nước đôi ',
             img: './assets/img/products/set_bun_ca.jpg',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Bún cá được làm đặc biệt hơn với cá trắm lọc xương và chiên giòn, miếng cá nhúng vào nước dùng ăn vẫn giòn dai, thơm ngon vô cùng.'
+            category: 'Khuyên tai',
+            price: 1800000,
+            desc: 'Khuyên tai giọt nước đôi mang đến vẻ đẹp mềm mại và thanh thoát với hai tầng giọt nước chuyển động tinh tế theo từng cử chỉ. Thiết kế nhẹ nhàng nhưng đầy điểm nhấn, lý tưởng để tô điểm cho phong cách hàng ngày hoặc thêm phần nổi bật trong những dịp đặc biệt.'
         },
         {
             id: 16,
             status: 1, 
-            title: 'Bún cá (1 phần)',
+            title: 'Khuyên tai vòng xoắn bạc Nappa',
             img: './assets/img/products/set_bun_ca.jpg',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Bún cá được làm đặc biệt hơn với cá trắm lọc xương và chiên giòn, miếng cá nhúng vào nước dùng ăn vẫn giòn dai, thơm ngon vô cùng'
+            category: 'Khuyên tai',
+            price: 2000000,
+            desc: 'Khuyên tai vòng xoắn bạc Nappa nổi bật với thiết kế tinh tế và đường xoắn mềm mại, tạo nên vẻ đẹp hiện đại đầy cuốn hút. Chất liệu bạc sáng bóng kết hợp cùng kiểu dáng độc đáo giúp bạn dễ dàng phối hợp với mọi phong cách, từ năng động thường ngày đến những dịp đặc biệt.'
         },
         {
             id: 17,
             status: 1, 
-            title: 'Xôi trắng hành phi (1 phần)',
+            title: 'Khuyên tai vòng cong kim cương bạc',
             img: './assets/img/products/bun_ca_hanh_phi.jpeg',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Bún cá được làm đặc biệt hơn với cá trắm lọc xương và chiên giòn, miếng cá nhúng vào nước dùng ăn vẫn giòn dai, thơm ngon vô cùng'
+            category: 'Khuyên tai',
+            price: 3500000,
+            desc: 'Vẻ đẹp thanh lịch với một chút lấp lánh, khuyên tai vòng cong kim cương bạc là điểm nhấn hoàn hảo cho mọi phong cách. Được chế tác từ bạc sáng bóng và đính đá CZ tinh xảo, thiết kế uốn cong mềm mại ôm sát tai tạo cảm giác vừa hiện đại vừa nữ tính.'
         },
         {
             id: 18,
             status: 1, 
-            title: 'Tôm sú lột rang thịt (1 phần)',
+            title: 'Khuyên tai đinh tán nút bạc',
             img: './assets/img/products/tom_su_luot_ran_thit.png',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Tôm sú tươi rim với thịt. rim kỹ, vừa lửa nên thịt và tôm săn lại, ngấm vị, càng ăn càng thấy ngon.'
+            category: 'Khuyên tai',
+            price: 1200000,
+            desc: 'Khuyên tai đinh tán nút bạc mang đến vẻ đẹp hiện đại với thiết kế tối giản và tinh tế. Kiểu dáng nhỏ gọn, dễ đeo hàng ngày nhưng vẫn đủ nổi bật để tạo điểm nhấn cho phong cách của bạn.'
         },
         {
             id: 19,
             status: 1, 
-            title: 'Bánh cookie dừa',
+            title: 'Vòng tay xích mỏ neo',
             img: './assets/img/products/banh_cookie_dua.jpeg',
-            category: 'Món mặn',
-            price: 130000,
-            desc: 'Bánh cookie dừa ngọt vừa miệng, dừa bào tươi nhào bánh nướng giòn tan, cắn vào thơm lừng, giòn rụm'
+            category: 'Vòng tay',
+            price: 4500000,
+            desc: 'Được làm thủ công bằng vàng nguyên khối 14k, chiếc vòng này được đặt tên theo cách các mắt xích kết nối với nhau giống như một sợi dây xích của tàu giữ một mỏ neo.'
         },
         {
             id: 20,
             status: 1, 
-            title: 'Cá chiên giòn sốt mắm Thái',
+            title: 'Vòng tay hoa sen',
             img: './assets/img/products/sot_mam_thai.jpeg',
-            category: 'Món mặn',
-            price: 130000,
-            desc: 'Bánh cookie dừa ngọt vừa miệng, dừa bào tươi nhào bánh nướng giòn tan, cắn vào thơm lừng, giòn rụm'
+            category: 'Vòng tay',
+            price: 2500000,
+            desc: 'Vòng tay hoa sen được chế tác từ vàng Vermeil 18k, kết hợp cùng đá sapphire trắng tinh khiết, mang đến vẻ đẹp thanh khiết và đầy ý nghĩa. Hình ảnh hoa sen tượng trưng cho sự thanh cao và bình an, là món trang sức nhẹ nhàng nhưng giàu cảm xúc, lý tưởng để đeo mỗi ngày hoặc dành tặng người bạn trân quý.'
         },
         {
             id: 21,
             status: 1, 
-            title: 'Tôm sú rang muối (1 suất)',
-            category: 'Món mặn',
+            title: 'Vòng tay mắt quỷ kim cương Pavé',
+            category: 'Vòng tay',
             img: './assets/img/products/tom-su-rang-muoi.jpeg',
-            price: 550000,
-            desc: 'Từng chú tôm sú được chọn lựa kĩ càng mỗi ngày, đảm bảo là tôm tươi sống, vẫn còn đang bơi khỏe. Tôm rang muối vừa đậm đà lại vẫn giữ được vị ngọt tự nhiên của tôm sú.'
+            price: 7000000,
+            desc: 'Biểu tượng mắt ác mang ý nghĩa sâu sắc trong nhiều nền văn hóa, được tin là có khả năng bảo vệ người đeo khỏi sự đố kỵ và năng lượng tiêu cực. Với hình ảnh đặc trưng, nó được cho là phản chiếu và bẻ cong điều xấu trở lại nơi nó bắt nguồn, như một lá bùa hộ mệnh vừa bí ẩn vừa mạnh mẽ.'
         },
         {
             id: 22,
             status: 1, 
-            title: 'Tôm sú rang bơ tỏi (1 suất)',
-            category: 'Món mặn',
+            title: 'Vòng tay Pavé Diamond Sunburst',
+            category: 'Vòng tay',
             img: './assets/img/products/tom-su-rang-bo-toi.jpeg',
-            price: 550000,
-            desc: 'Tôm được chiên vàng giòn bên ngoài, bên trong thịt tôm vẫn mềm, kết hợp cùng sốt bơ tỏi thơm nức . Tôm tươi được Bếp Hoa chiên theo bí quyết riêng nên phần thịt tôm bên trong sẽ có hương vị thơm ngon đặc biệt, sốt bơ tỏi béo ngậy hấp dẫn. Ăn kèm bánh mỳ rất hợp'
+            price: 4500000,
+            desc: 'Vòng tay Pavé Diamond Sunburst là sự kết hợp rực rỡ giữa vàng 14k và những viên kim cương thiên nhiên lấp lánh. Lấy cảm hứng từ ánh mặt trời tỏa sáng, thiết kế pavé tinh xảo tạo nên hiệu ứng lấp lánh nổi bật, mang đến cảm giác ấm áp, sang trọng và đầy năng lượng tích cực cho người đeo.'
         },
 
         {
             id: 23,
             status: 1, 
-            title: 'Combo Vịt quay và gỏi vịt',
-            category: 'Món mặn',
+            title: 'Vòng tay Geo Station',
+            category: 'Vòng tay',
             img: './assets/img/products/combo-vitquay-va-goivit.jpeg',
-            price: 510000,
-            desc: 'Combo vịt quay Bếp Hoa + gỏi vịt bắp cải size đại cực kỳ thích hợp cho những bữa ăn cần nhiều rau, nhiều đạm mà vẫn đảm bảo ngon miệng. Vịt quay chuẩn Macao giòn da thấm thịt, thêm phần gỏi vịt chua chua ngọt ngọt, rau tươi giòn ăn chống ngán, cân bằng dinh dưỡng.'
+            price: 5600000,
+            desc: 'Phá vỡ sự bình thường. Vòng tay Geo Station có viên đá Topaz xanh London được gắn trên kim loại mô phỏng hình dạng và mặt cắt của đá quý thô.'
         },
 
         {
             id: 24,
             status: 1, 
-            title: 'Set cá cơm tầm',
+            title: 'Vòng tay chuỗi Serpentine',
             img: './assets/img/products/set_ca_tam.jpg',
-            category: 'Món mặn',
+            category: 'Vòng tay',
             price: 950000,
-            desc: 'Một 1 set với 3 món ngon mỹ mãn đủ 4 người ăn no, bếp trưởng tự tay chọn từng con cá tầm tươi đủ chất lượng để chế biến đủ 3 món gỏi, nướng, canh chua 10 điểm cho chất lượng.'
+            desc: 'Thanh thoát, quyến rũ và nổi bật—mọi thứ bạn cần trong một sợi dây chuyền có mắt xích dẹt, một được thiết kế để bạn thoải mái đeo cả ngày.'
         },
         {
             id: 25,
             status: 1, 
             title: 'Chả ốc 1 phần',
             img: './assets/img/products/cha_oc_1_phan.jpeg',
-            category: 'Món mặn',
+            category: 'Vòng tay',
             price: 350000,
             desc: 'Chả ốc với ốc giòn tan, băm rối, trộn với thịt, lá lốt, rau thơm, nêm nếm vừa ăn và viên tròn, chiên cho giòn ngoài mềm trong. Ăn chả ốc kẹp với rau sống và chấm mắm chua ngọt cực kỳ đưa vị.'
         },

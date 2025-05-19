@@ -41,7 +41,7 @@ function thanhtoanpage(option,product) {
             totalBillOrderHtml = `<div class="priceFlx">
             <div class="text">
                 Tiền hàng 
-                <span class="count">${getAmountCart()} món</span>
+                <span class="count">${getAmountCart()} sản phẩm</span>
             </div>
             <div class="price-detail">
                 <span id="checkout-cart-total">${vnd(getCartTotal())}</span>
@@ -63,7 +63,7 @@ function thanhtoanpage(option,product) {
             totalBillOrderHtml = `<div class="priceFlx">
                 <div class="text">
                     Tiền hàng 
-                    <span class="count">${product.soluong} món</span>
+                    <span class="count">${product.soluong} sản phẩm</span>
                 </div>
                 <div class="price-detail">
                     <span id="checkout-cart-total">${vnd(product.soluong * product.price)}</span>
@@ -224,10 +224,10 @@ function xulyDathang(product) {
         let chinhanh1 = document.querySelector("#chinhanh-1");
         let chinhanh2 = document.querySelector("#chinhanh-2");
         if(chinhanh1.checked) {
-            diachinhan = "273 An Dương Vương, Phường 3, Quận 5";
+            diachinhan = "12 phố Chùa Bộc, Quang Trung, Đống Đa";
         }
         if(chinhanh2.checked) {
-            diachinhan = "04 Tôn Đức Thắng, Phường Bến Nghé, Quận 1";
+            diachinhan = "175 Cự Lộc , Thượng Đình , Thanh Xuân";
         }
         hinhthucgiao = tudenlay.innerText;
     }

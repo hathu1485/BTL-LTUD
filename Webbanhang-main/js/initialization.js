@@ -269,7 +269,7 @@ function createProduct() {
             status: 1, 
             title: 'Lắc chân hoa bong bóng',
             category: 'Lắc chân',
-            img: './assets/img/produchaanlac-chan-hoa-bong-tron.jpg',
+            img: './assets/img/products/lac-chan-hoa-bong-tron.jpg',
             price: 1500000,
             desc: 'Vẻ đẹp tròn đầy và mềm mại của những cánh hoa được tái hiện tinh tế qua từng chi tiết nhỏ. Thiết kế mang đến cảm giác nhẹ nhàng, nữ tính và luôn nổi bật dù kết hợp với bất kỳ trang phục nào, từ đơn giản đến dịu dàng, thanh lịch.'
         },
@@ -387,7 +387,7 @@ function createProduct() {
             status: 1, 
             title: 'Hạt Charm bạc tim nơ',
             category: 'Phụ kiện',
-            img: './assets/img/products/hat-charm-bac-tim-no.jpg',
+            img: './assets/img/products/hat-charm-bac-tim-no.jpg'
             price: 410000,
             desc: 'Thiết kế trái tim mềm mại kết hợp cùng chi tiết nơ nhỏ xinh tạo nên vẻ đẹp ngọt ngào và đầy nữ tính.'
         },
@@ -396,7 +396,7 @@ function createProduct() {
             status: 1, 
             title: 'Hạt Charm bạc mũi tên tình yêu',
             category: 'Phụ kiện',
-            img: './assets/img/products/hat-charm-byeeumui-ten-tinh-yeu.jpg',
+            img: './assets/img/products/hat-charm-bac-mui-ten-tinh-yeu.jpg',
             price: 450000,
             desc: 'Lấy cảm hứng từ mũi tên của thần Cupid, thiết kế charm này gợi nhắc đến những rung động đầu đời và tình yêu chân thành.',
         },
@@ -405,7 +405,7 @@ function createProduct() {
             status: 1, 
             title: 'Hạt Charm bạc cánh bướm tím',
             category: "Phụ kiện",
-            img: './assets/img/products/hat-charm-btimscanh-buom-tim.jpg',
+            img: './assets/img/products/hat-charm-bac-canh-buom-tim.jpg',
             price: 490000,
             desc: 'Thiết kế cánh bướm với sắc tím dịu dàng gợi cảm giác tự do và bay bổng, như một lời nhắc về sự đổi thay và vẻ đẹp của hành trình trưởng thành. ',
         },

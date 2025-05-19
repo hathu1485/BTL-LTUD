@@ -236,10 +236,10 @@ function editProduct(id) {
     document.querySelector(".add-product").classList.add("open");
     //
     document.querySelector(".upload-image-preview").src = products[index].img;
-    document.getElementById("ten-mon").value = products[index].title;
+    document.getElementById("ten-san-pham").value = products[index].title;
     document.getElementById("gia-moi").value = products[index].price;
     document.getElementById("mo-ta").value = products[index].desc;
-    document.getElementById("chon-mon").value = products[index].category;
+    document.getElementById("chon-san-pham").value = products[index].category;
 }
 
 function getPathImage(path) {
@@ -258,10 +258,10 @@ btnUpdateProductIn.addEventListener("click", (e) => {
     let descProduct = products[indexCur].desc;
     let categoryProduct = products[indexCur].category;
     let imgProductCur = getPathImage(document.querySelector(".upload-image-preview").src)
-    let titleProductCur = document.getElementById("ten-mon").value;
+    let titleProductCur = document.getElementById("ten-san-pham").value;
     let curProductCur = document.getElementById("gia-moi").value;
     let descProductCur = document.getElementById("mo-ta").value;
-    let categoryText = document.getElementById("chon-mon").value;
+    let categoryText = document.getElementById("chon-san-pham").value;
 
     if (imgProductCur != imgProduct || titleProductCur != titleProduct || curProductCur != curProduct || descProductCur != descProduct || categoryText != categoryProduct) {
         let productadd = {
@@ -289,12 +289,12 @@ let btnAddProductIn = document.getElementById("add-product-button");
 btnAddProductIn.addEventListener("click", (e) => {
     e.preventDefault();
     let imgProduct = getPathImage(document.querySelector(".upload-image-preview").src)
-    let tenMon = document.getElementById("ten-mon").value;
+    let tenSanpham = document.getElementById("ten-san-pham").value;
     let price = document.getElementById("gia-moi").value;
     let moTa = document.getElementById("mo-ta").value;
-    let categoryText = document.getElementById("chon-mon").value;
-    if(tenMon == "" || price == "" || moTa == "") {
-        toast({ title: "Chú ý", message: "Vui lòng nhập đầy đủ thông tin món!", type: "warning", duration: 3000, });
+    let categoryText = document.getElementById("chon-san-pham").value;
+    if(tenSanpham == "" || price == "" || moTa == "") {
+        toast({ title: "Chú ý", message: "Vui lòng nhập đầy đủ thông tin sản phẩm!", type: "warning", duration: 3000, });
     } else {
         if(isNaN(price)) {
             toast({ title: "Chú ý", message: "Giá phải ở dạng số!", type: "warning", duration: 3000, });
@@ -302,7 +302,7 @@ btnAddProductIn.addEventListener("click", (e) => {
             let products = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")) : [];
             let product = {
                 id: createId(products),
-                title: tenMon,
+                title: tenSanpham,
                 img: imgProduct,
                 category: categoryText,
                 price: price,
@@ -325,10 +325,10 @@ document.querySelector(".modal-close.product-form").addEventListener("click",() 
 
 function setDefaultValue() {
     document.querySelector(".upload-image-preview").src = "./assets/img/blank-image.png";
-    document.getElementById("ten-mon").value = "";
+    document.getElementById("ten-san-pham").value = "";
     document.getElementById("gia-moi").value = "";
     document.getElementById("mo-ta").value = "";
-    document.getElementById("chon-mon").value = "Món chay";
+    document.getElementById("chon-san-pham").value = "Sản phẩm ";
 }
 
 // Open Popup Modal

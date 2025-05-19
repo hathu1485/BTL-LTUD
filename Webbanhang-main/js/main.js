@@ -181,11 +181,11 @@ function showCart() {
     }
     let modalCart = document.querySelector('.modal-cart');
     let containerCart = document.querySelector('.cart-container');
-    let themmon = document.querySelector('.them-mon');
+    let themsan-pham = document.querySelector('.them-san-pham');
     modalCart.onclick = function () {
         closeCart();
     }
-    themmon.onclick = function () {
+    themsan-pham.onclick = function () {
         closeCart();
     }
     containerCart.addEventListener('click', (e) => {

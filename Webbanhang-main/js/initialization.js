@@ -574,7 +574,7 @@ function createAdminAccount() {
         accounts = [];
         accounts.push({
             fullname: "Chu Thị Hà Thu",
-            phone: "hathu1485",
+            phone: "0368249123",
             password: "123456",
             address: 'https://github.com/hathu1485',
             email: 'hathu1485@gmail.com',

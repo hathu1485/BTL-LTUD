@@ -2,7 +2,7 @@ function checkLogin() {
     let currentUser = JSON.parse(localStorage.getItem("currentuser"));
     if(currentUser == null || currentUser.userType == 0) {
         document.querySelector("body").innerHTML = `<div class="access-denied-section">
-            <img class="access-denied-img" src="./assets/img/access-denied.webp" alt="">
+            <img class="access-denied-img" src="./assets/img/access-denied.webp.png" alt="">
         </div>`
     } else {
         document.getElementById("name-acc").innerHTML = currentUser.fullname;
